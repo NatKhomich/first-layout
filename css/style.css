@@ -173,8 +173,14 @@ body {
   color: #ffffff;
   text-align: center;
   padding: 15px 30px;
-
   margin: 0;
+  border-radius: 5px;
+}
+.download:hover {
+  background-color: black;
+}
+.download:active{
+  background-color: #ff8b38;
 }
 .header-body__row__columns_2 {
   flex: 1 1 50%;
@@ -325,6 +331,13 @@ input::placeholder {
   color: #ffffff;
   padding: 16px 24px;
   border-radius: 3px;
+  border: 3px solid #ffffff;
+}
+.down:hover{
+  background-color: black;
+}
+.down:active{
+  background-color: #9a9a9a;
 }
 /*---------------------------Третий-----------------------*/
 .three {
@@ -385,7 +398,7 @@ input::placeholder {
   min-height: 12px;
 }
 .columns_min-text {
-  margin-left: 40px;
+  margin: 5px 0 0 15px;
 }
 .heading {
   font-weight: bold;
@@ -397,12 +410,12 @@ input::placeholder {
   line-height: 17px;
   font-weight: 600;
   color: #212121;
-  margin-bottom: 15px;
+
 }
 .parg {
   line-height: 20px;
   color: #86878b;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .column-sub__row-2 {
   display: flex;
